@@ -20,20 +20,27 @@ a:hover {
 
 /* Project 4 GoMike css edit*/
 /* footer text styles */
-.col-sm-4 {
-    color:#f0f8ff;
+
+footer p,
+footer li a{
+    font-size: 17px;
+}
+.row  > .col-sm-4 > p.white {
+    margin: 15px 21px
 }
 .row > .col-sm-4 li > a {
     color:#f8e8ff;
 }
 
+section#bloc-5-cta {padding-top: 15px;}
+footer#bloc-8 {padding-top: 55px;}
 
 /* contact form styles */
-a.small-print-link {
+a.frlc-link {
     color:#694a56!important;
     font-weight: 600;
 }
-a.small-print-link:hover {
+a.frlc-link:hover {
     color:#b27956!important;
     font-weight: 550;
 }

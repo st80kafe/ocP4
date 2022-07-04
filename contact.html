@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="seo, google, website, internet, web design, design agency, design agency, design agency, logo design atlanta">
+    <meta name="description" content="From SEO to logo design GoMike Designs Agency in Atlanta provides services that help local companies become more visible online.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
@@ -12,9 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
-	<script defer src="./js/jquery-2.1.0.js"></script>
-	<script defer src="./js/bootstrap.js"></script>
-	<script defer src="./js/blocs.js"></script>
+	<script defer src="./js/jquery-3.6.0.min.js"></script>
+	<script defer src="./js/bootstrap.min.js"></script>
 	<script defer src="./js/jqBootstrapValidation.js"></script>
 	<script defer src="./js/formHandler.js"></script>
 
@@ -36,9 +35,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header" title="GoMike Designs Agency Atlanta">
-				<div class="keywords" style="color:#cccccc;font-size:1px;">web agency atlanta, web strategy, web design, logo, website, web, internet, logo design</div>
 				<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png" alt="logo, seo, google, website, internet, web design, design agency" height="40" /></a>
-				<div class="keywords" style="color:#cccccc;font-size:1px;">web agency atlanta, web strategy, web design, logo, website, web, internet, logo design</div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -84,11 +81,14 @@
 <!-- bloc-7 -->
 <section class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row" role=group aria-labelledby="contact-information">
 			<div class="col-sm-1"></div>
-			<div class="col-sm-2"><h2 class="mg-md service-header">CONTACT</h2></div>
+			<div class="col-sm-2">
+				<h2 class="mg-md service-header">CONTACT</h2>
+				<p id="contact-information">Please provide some contact information for GoMike Designs,<br>including your name and email address.</p>
+			</div>
 			<div class="col-sm-6">
-				<form id="form_1"   data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1"  data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label for="customer-name">
 							Name
@@ -113,13 +113,13 @@
 						</label><textarea  id="customer-message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Let's go Mike
+						submit
 					</button>
 				</form>
 			</div>
 			<div class="col-sm-2">
 				<p>
-					mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta, GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelance services? <br>Please visit&nbsp;<a class="small-print-link" href="index.html">my main page</a>.
+					mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta, GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelance services? <br>Please visit&nbsp;<a class="frlc-link" href="index.html">my main page</a>.
 				</p>
 			</div>
 		</div>
@@ -128,7 +128,7 @@
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a  href="" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a href="#" aria-label="scroll-to-top-of-page" class="bloc-button btn btn-d scrollToTop" rel="nofollow" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END -->
 
 
@@ -143,22 +143,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html"><span role="link"  aria-label="Twitter link" class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html"><span role="link" aria-label="Facebook link" class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html"><span role="link" aria-label="Dribble link" class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html"><span role="link" aria-label="Instagram link" class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
