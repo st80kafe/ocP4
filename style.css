@@ -45,6 +45,10 @@ a.frlc-link:hover {
     font-weight: 550;
 }
 
+.socgroup{
+    margin: 25px;
+}
+
 /* end Project 4 GoMike css edit
     other lines edited: 
     110, 675, 808, 850-858, 881,881,906,907,917,918
@@ -316,7 +320,7 @@ a.frlc-link:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .navbar {
@@ -708,7 +712,7 @@ label,
 }
 
 p {
-    font-size: 12px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -717,7 +721,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 2.75em;
     font-family: "Open Sans";
 }
 
