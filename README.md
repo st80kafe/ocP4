@@ -6,8 +6,3 @@ author: Peter Gianukos
 
 The project is a consultation with a web design agency which has its own website online.  The website 
 is written for businesses local to the area where the agency is based.
-
-### Skills
-
-
-### Scenario
